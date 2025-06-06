@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Gits\\FileArchiver\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D80C809-5373-49D5-87A0-5B9AA2F049BA}|FileArchiver.vcxproj|D:\\Gits\\FileArchiver\\FilesArchiverImp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0D80C809-5373-49D5-87A0-5B9AA2F049BA}|FileArchiver.vcxproj|solutionrelative:FilesArchiverImp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\IDEs\\Microsoft VS\\VC\\Tools\\MSVC\\14.44.35207\\include\\filesystem||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D80C809-5373-49D5-87A0-5B9AA2F049BA}|FileArchiver.vcxproj|D:\\Gits\\FileArchiver\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0D80C809-5373-49D5-87A0-5B9AA2F049BA}|FileArchiver.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "filesystem",
+              "DocumentMoniker": "D:\\IDEs\\Microsoft VS\\VC\\Tools\\MSVC\\14.44.35207\\include\\filesystem",
+              "RelativeDocumentMoniker": "..\\..\\IDEs\\Microsoft VS\\VC\\Tools\\MSVC\\14.44.35207\\include\\filesystem",
+              "ToolTip": "D:\\IDEs\\Microsoft VS\\VC\\Tools\\MSVC\\14.44.35207\\include\\filesystem",
+              "RelativeToolTip": "..\\..\\IDEs\\Microsoft VS\\VC\\Tools\\MSVC\\14.44.35207\\include\\filesystem",
+              "ViewState": "AgIAACMHAAAAAAAAAAAhwDkHAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-06T04:29:03.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "D:\\Gits\\FileArchiver\\Main.cpp",
+              "RelativeDocumentMoniker": "Main.cpp",
+              "ToolTip": "D:\\Gits\\FileArchiver\\Main.cpp",
+              "RelativeToolTip": "Main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-06T04:24:58.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FilesArchiverImp.cpp",
+              "DocumentMoniker": "D:\\Gits\\FileArchiver\\FilesArchiverImp.cpp",
+              "RelativeDocumentMoniker": "FilesArchiverImp.cpp",
+              "ToolTip": "D:\\Gits\\FileArchiver\\FilesArchiverImp.cpp*",
+              "RelativeToolTip": "FilesArchiverImp.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-06T04:23:57.986Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

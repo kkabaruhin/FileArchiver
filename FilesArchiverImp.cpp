@@ -5,16 +5,19 @@
 #include <thread>
 #include <windows.h>
 #include <vector>
+#include <iostream>
 
 void FilesArchiverImp::createQueue(std::string path) {
     using recursive_directory_iterator = std::filesystem::recursive_directory_iterator;
     std::queue<std::string> empty;
     std::swap(filesQueue, empty);
+  
     for (const auto& dirEntry : recursive_directory_iterator(path)) {
         if (dirEntry.is_regular_file()) {
             filesQueue.push(dirEntry.path().string());
         }
     }
+    
 }
 
 void FilesArchiverImp::queueMyltiThreadManage(std::mutex* queueMutex) {
@@ -35,8 +38,20 @@ void FilesArchiverImp::queueMyltiThreadManage(std::mutex* queueMutex) {
     }
 }
 
+int processorsCount() {
+    SYSTEM_INFO sysinfo;
+    GetSystemInfo(&sysinfo);
+    return sysinfo.dwNumberOfProcessors;
+}
+
 void FilesArchiverImp::archive(std::string path) {
-    createQueue(path);
+    try {
+        createQueue(path);
+    }
+    catch (std::string errorMessage) {
+        std::cout << "Invalid path";
+        return;
+    }
 
     int threadsCount = max(2, processorsCount() / 2);
 
@@ -50,8 +65,4 @@ void FilesArchiverImp::archive(std::string path) {
     }
 }
 
-int processorsCount() {
-    SYSTEM_INFO sysinfo;
-    GetSystemInfo(&sysinfo);
-    return sysinfo.dwNumberOfProcessors;
-}
+
